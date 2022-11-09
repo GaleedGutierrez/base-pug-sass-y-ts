@@ -7,6 +7,51 @@
 // $black: #000000;
 
 
-// p {
-//     color: $dark;
+body {
+	background-color: $set-color;
+	color: $set-color;
+}
+
+p {
+	color: $set-color;
+}
+
+a {
+	color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+	color: inherit;
+}
+
+form,
+input,
+textarea,
+select,
+button,
+label {
+	background-color: transparent;
+	color: inherit;
+}
+
+/*
+    Configuramos el texto que seleccionamos
+    * Cambiar variables
+*/
+// ::selection {
+//     background-color: var(--primary-color);
+//     color: var(--secondary-color);
 // }

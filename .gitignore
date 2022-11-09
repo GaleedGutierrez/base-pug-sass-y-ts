@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,macos,linux,visualstudiocode,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,linux,visualstudiocode,node
+# Created by https://www.toptal.com/developers/gitignore/api/windows,macos,linux,visualstudiocode,node,video
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,linux,visualstudiocode,node,video
 
 ### Linux ###
 *~
@@ -141,7 +141,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-# dist
+dist
 
 # Gatsby files
 .cache/
@@ -189,6 +189,24 @@ out
 # SvelteKit build / generate output
 .svelte-kit
 
+### Video ###
+*.3g2
+*.3gp
+*.asf
+*.asx
+*.avi
+*.flv
+*.mkv
+*.mov
+*.mp4
+*.mpg
+*.ogv
+*.rm
+*.swf
+*.vob
+*.wmv
+*.webm
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -234,7 +252,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,visualstudiocode,node
+# End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,visualstudiocode,node,video
 n
 # Extras
 prepros.config
