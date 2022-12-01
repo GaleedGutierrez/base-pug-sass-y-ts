@@ -23,3 +23,5 @@ Base para proyectos con PUG, SASS y TS
 		<img src="./assets/readme/facebook-icon.webp" alt="Facebook icon" width="100px">
 	</a>
 </div>
+
+En caso de que typescript no funcione con node usamos: npm i -D @types/node 
